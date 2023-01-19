@@ -16,17 +16,17 @@
         <form action="">
             <div class="container">
                 <div class="row flex-column align-items-center">
-                    <div class="form-outline mb-4 col-2">
+                    <div class="form-outline mb-4 col-4">
                         <input type="email" id="form2Example1" class="form-control" />
                         <label class="form-label" for="form2Example1">Email address</label>
                     </div>
 
-                    <div class="form-outline mb-4 col-2">
+                    <div class="form-outline mb-4 col-4">
                         <input type="password" id="form2Example2" class="form-control" />
                         <label class="form-label" for="form2Example2">Password</label>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+                <a href="/component"><button type="button" class="btn btn-primary btn-block mb-4">Sign in</button></a> 
             </div>
         </form>
 

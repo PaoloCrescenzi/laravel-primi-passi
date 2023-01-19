@@ -24,3 +24,13 @@ Route::get('/about', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/component', function () {
+    $user = [
+        'surname' => 'Crescenzi',
+        'name' => 'Paolo',
+    ];
+    return view('component', [
+        "user" => $user, 
+    ]);
+});
